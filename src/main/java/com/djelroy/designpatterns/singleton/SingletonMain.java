@@ -26,7 +26,7 @@ public class SingletonMain {
 				throw new SingletonException();
 			}
 		}
-		System.out.println("We just have on instance of Environment and Runtime");
+		System.out.println("We just have one instance of Environment and Runtime");
 
 	}
 
