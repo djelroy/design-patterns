@@ -7,7 +7,7 @@ package com.djelroy.designpatterns.singleton;
  */
 public class Runtime {
 
-	private static Runtime instance = new Runtime();
+	private static volatile Runtime instance = null;
 
 	private Runtime() {
 	}
