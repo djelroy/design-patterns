@@ -28,6 +28,7 @@ public class SingletonMain {
 		}
 		System.out.println("We just have one instance of Environment and Runtime");
 
+		System.out.println(SingletonEnum.INSTANCE.getClass() + " is definately a Singleton! Just use SingletonEnum.INSTANCE to use it");
 	}
 
 	private static class SingletonException extends Exception {
