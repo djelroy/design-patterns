@@ -32,11 +32,9 @@ public class ArtistGossiper extends Thread implements GossipBroadcaster {
 	}
 
 	private void addGossip(Gossip gossip) {
-		synchronized (Gossip.class) {
-			this.latestGossip = gossip;
-			System.out.println("\nAdded gossip = " + gossip.toString());
-			notifyObservers();
-		}
+		this.latestGossip = gossip;
+		System.out.println("\nAdded gossip = " + gossip.toString());
+		notifyObservers();
 	}
 
 	@Override
