@@ -66,7 +66,7 @@ public class ArtistGossiper extends Thread implements GossipBroadcaster {
 				Thread.sleep(3000);
 			}
 
-			addGossip(new Gossip("This gossip will not be received buy subscribers even when broadcasted",
+			addGossip(new Gossip("This gossip will not be received by subscribers even when broadcasted",
 					"ArtistGossiper members all in prison!"));
 
 		} catch (InterruptedException e) {
