@@ -13,15 +13,11 @@ public class ClientMain {
 		List<Car> cars = new ArrayList<>();
 		
 		String type = args[0];
-		
-		if(type != null && type.equals("electric")) {
-			vehiculeFactory = new ElectricVehiculeFactory();
-		}
-		
-		else if(type != null && type.equals("petrol")) {
-			vehiculeFactory = new PetrolVehiculeFactory();
-		}
-		else {
+		if (type != null && type.equals("electric")) {
+			vehiculeFactory = ElectricVehiculeFactory.getInstance();
+		} else if (type != null && type.equals("petrol")) {
+			vehiculeFactory = PetrolVehiculeFactory.getInstance();
+		} else {
 			System.out.println("Type should be provided: electric or petrol");
 			return;
 		}
