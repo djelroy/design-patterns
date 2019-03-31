@@ -13,3 +13,4 @@ Structural design patterns:
 Behavioral design patterns:
 - [Observer](https://github.com/djelroy/design-patterns/tree/master/src/main/java/com/djelroy/designpatterns/observer)
 - [Strategy](https://github.com/djelroy/design-patterns/tree/master/src/main/java/com/djelroy/designpatterns/strategy)
+- [State](https://github.com/djelroy/design-patterns/tree/master/src/main/java/com/djelroy/designpatterns/state)
