@@ -2,7 +2,7 @@ package com.djelroy.designpatterns.state;
 
 public class DeepSleepState extends State {
 
-	public DeepSleepState(EverydayLife life) {
+	public DeepSleepState(EveryDayLife life) {
 		super(life);
 	}	
 	

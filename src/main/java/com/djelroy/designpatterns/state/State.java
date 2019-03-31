@@ -2,9 +2,9 @@ package com.djelroy.designpatterns.state;
 
 public abstract class State {
 
-	protected final EverydayLife life;
+	protected final EveryDayLife life;
 	
-	public State(EverydayLife life) {
+	public State(EveryDayLife life) {
 		this.life = life;
 	}
 

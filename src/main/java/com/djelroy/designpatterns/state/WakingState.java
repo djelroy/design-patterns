@@ -2,7 +2,7 @@ package com.djelroy.designpatterns.state;
 
 public class WakingState extends State {
 
-	public WakingState(EverydayLife life) {
+	public WakingState(EveryDayLife life) {
 		super(life);
 	}
 

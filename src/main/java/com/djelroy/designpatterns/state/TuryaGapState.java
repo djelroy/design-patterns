@@ -2,7 +2,7 @@ package com.djelroy.designpatterns.state;
 
 public class TuryaGapState extends State {
 
-	public TuryaGapState(EverydayLife life) {
+	public TuryaGapState(EveryDayLife life) {
 		super(life);		
 	}
 

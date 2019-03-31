@@ -2,7 +2,7 @@ package com.djelroy.designpatterns.state;
 
 public class SamadhiState extends State {
 
-	public SamadhiState(EverydayLife life) {
+	public SamadhiState(EveryDayLife life) {
 		super(life);
 	}
 
