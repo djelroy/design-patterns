@@ -27,7 +27,7 @@ public abstract class State {
 	
 	public void stayAware() {
 		System.out.println("Your awareness get a hold on turya");
-		life.setCurrentState(life.getTuryaGapSate());
+		life.setCurrentState(life.getTuryaGapState());
 	}
 	
 	public void bestowBliss() {
